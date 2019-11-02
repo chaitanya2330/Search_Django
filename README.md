@@ -8,7 +8,7 @@ A HTTP service that provides an endpoint for fuzzy search / autocomplete of Engl
 *Run pip install -r requirements.txt (Python 2), or pip3 install -r requirements.txt (Python 3)
 
 # Front-end
-HTML template of Search Box with a Search button.
+HTML5 and CSS template of Search Box with a Search button.
 
 # API End Points
 GET http://localhost:8000 :- *This endpoint renders a search box in the browser.
