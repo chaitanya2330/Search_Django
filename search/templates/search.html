@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+	   {% block content %}
+<section>
+<center>
+    <blockquote class="blockquote">
+        <p class="mb-0"> Please Anything Search here you can find Everthings</p>
+        <footer class="blockquote-footer">by <cite>Chaitanya Talpada</cite></footer>
+    </blockquote>
+  <br>
+<div class="ui-widget">
+
+  <form action= "/searchResults" method= "GET">
+      <input id="search" class=" form-control-sm ml-3 w-50" type="text" placeholder="Search" aria-label="Search" name="term">
+      <button class="btn btn-primary btn-rounded btn-sm my-0 ml-sm-2" type="submit">Search</button>
+  </form>
+    <form class="form-inline mr-auto">
+
+    </form>
+</div>
+</center>
+</section>
+	   {% endblock %}
