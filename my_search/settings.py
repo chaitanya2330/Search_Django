@@ -7,7 +7,6 @@ For more information on this file, see
 https://docs.djangoproject.com/en/2.2/topics/settings/
 
 For the full list of settings and their values, see
-https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os, datetime
@@ -20,7 +19,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'tw*u7@$l-vz9#-yv*x2rf1*g^0z^*&3_jzg^cxlkrmvzm-zb24'
+SECRET_KEY = 'PLEASE ENTER YOUR SECRET KEY'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
